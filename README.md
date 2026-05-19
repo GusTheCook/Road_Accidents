@@ -21,7 +21,6 @@ Road Accidents/
 │   ├── 2- Data Preparation.ipynb         # Data cleaning and integration
 │   ├── 3- Exploratory Data Analysis.ipynb # Statistical and geographic analysis
 │   └── 4- Model Training.ipynb           # Machine learning model development
-├── Road_Accidents_Report.tex              # Comprehensive LaTeX report
 ├── README.md                              # This file
 ├── .gitignore                             # Git ignore patterns
 └── requirements.txt                       # Python dependencies
@@ -146,15 +145,6 @@ pdflatex Road_Accidents_Report.tex
 2. **Geographic scope**: Includes overseas territories (DOM-TOM) alongside mainland
 3. **Temporal scope**: Only 2 years of data (2023-2024)
 4. **Class imbalance**: Severe accidents underrepresented (36% vs. 64%)
-
-## Future Work
-
-- [ ] Collect additional driver and vehicle features
-- [ ] Implement gradient boosting models for improved predictions
-- [ ] Deploy real-time API for risk scoring
-- [ ] Create interactive dashboard for geographic visualization
-- [ ] Develop mobile app for driver risk alerts
-- [ ] Validate model on 2025 data (out-of-time validation)
 
 ## Author
 
